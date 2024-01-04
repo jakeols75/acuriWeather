@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google font links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap" rel="stylesheet">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+    <title>Document</title>
+</head>
+<body>
+    <div id="inputContainer">
+        <h1>Acuri Weather:</h1>
+        <form>
+            <label for="cityName">What city would you like to see?</label><input id="cityName" type="text" required>
+            <button id="btn" type="button">Submit</button>
+        </form>
+    </div>
+    <section id="weatherContainer"></section>
+    <h1 id="mapText">Please use the map below to search for different Locations to check their current weather:</h1>
+    <section id="mapContainer"></section>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
